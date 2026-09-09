@@ -3,13 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                echo 'Checking out SPARK project from GitHub...'
-                checkout scm
-            }
-        }
-
         stage('Install Dependencies') {
             steps {
                 echo 'Installing Node.js dependencies...'
