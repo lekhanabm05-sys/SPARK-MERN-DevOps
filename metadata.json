@@ -1,0 +1,8 @@
+{
+  "name": "SPARK - Smart Assessment & Knowledge Prediction Platform",
+  "description": "Personalized student learning pathways powered by real-time analytics with student, teacher, and admin portals.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
