@@ -3,7 +3,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: spark-container
     ports:
       - "3000:3000"
     env_file:
